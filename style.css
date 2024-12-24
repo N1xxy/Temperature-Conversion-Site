@@ -80,7 +80,7 @@ h1{
     border-radius: 6px;
 }
 
-/* From Uiverse.io by niat786 */ 
+
 button {
     border: none;
     color: #fff;
@@ -92,30 +92,12 @@ button {
     padding: 0.6em 1.5em;
    }
    
-    button:hover {
-        background-position: right center;
-        background-size: 200% auto;
-        -webkit-animation: pulse 2s infinite;
-        animation: pulse512 1.5s infinite;
-    }
-
+ 
     button:active {
         scale: 0.95;
       }
     
-    @keyframes pulse512 {
-        0% {
-        box-shadow: 0 0 0 0 #05bada66;
-        }
     
-        70% {
-        box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
-        }
-    
-        100% {
-        box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
-        }
-    }
 
 #output{
     height:40px;
