@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div id="form_div">
+        <form id="form">
+            <div class="separator"></div>
+            <h1>Tempreture calculator</h1>
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div id="buttons">
+                <div id="inputbox_div">
+                <label id="inputboxlabel" for="inputbox">Enter Degrees:</label>
+                <input type="number" id="inputbox" value="0"><br>
+                </div>
+
+                <div class="separator"></div>
+
+                <div for="toF" id="toF_div">
+                <label for="toF">Celcius → Fahrenheit</label>
+                <input type="radio" id="toF" name="unit"><br>
+                </div>
+
+                <div class="separator"></div>
+
+                <div id="toC_div">
+                <label for="toC">Fahrenheit → Celcius</label>
+                <input type="radio" id="toC" name="unit"><br>
+                </div>
+                
+                <div class="separator"></div>
+
+                <div class="separator"></div>
+                <button type="button" onclick="Convert()">Submit</button>
+                <div class="separator"></div>
+
+                <div class="separator"></div>
+
+                <p id="output"></p>
+
+                <div class="separator"></div>
+                
+            </div>
+        </form>
+    </div>
+        
+    <script>dragElement(document.getElementById("form_div"));</script>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
